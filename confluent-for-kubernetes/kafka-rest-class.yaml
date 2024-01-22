@@ -1,0 +1,8 @@
+apiVersion: platform.confluent.io/v1beta1
+kind: KafkaRestClass
+metadata:
+  name: default
+  namespace: confluent
+spec:
+  kafkaRest:
+    endpoint: http://<kafka-broker-endpoint>:8090
