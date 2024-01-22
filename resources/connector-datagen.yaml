@@ -2,7 +2,7 @@
 apiVersion: platform.confluent.io/v1beta1
 kind: Connector
 metadata:
-  name: pageviews
+  name: pageviews-connector
   namespace: confluent
 spec:
   class: "io.confluent.kafka.connect.datagen.DatagenConnector"
