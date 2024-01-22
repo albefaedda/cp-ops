@@ -8,7 +8,7 @@ spec:
   class: "io.confluent.kafka.connect.datagen.DatagenConnector"
   taskMax: 4
   connectRest:
-    endpoint: ec2-3-251-79-178.eu-west-1.compute.amazonaws.com:8083
+    endpoint: http://ec2-3-251-79-178.eu-west-1.compute.amazonaws.com:8083
   configs:
     kafka.topic: "pageviews"
     quickstart: "pageviews"
